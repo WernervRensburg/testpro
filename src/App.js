@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Component imports
@@ -20,15 +19,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Router>
-      <HeaderComponent />  
-      <NavbarComponent />
-          <Routes>
-            <Route element={<HomePage />} path="/" />
-            <Route element={<ServicesPage />} path="/" />
-            <Route element={<ProjectsPage />} path="/" />
-            <Route element={<AboutPage />} path="/" />
-          </Routes>
+        <Router>
+          <HeaderComponent />  
+          <NavbarComponent />
+            <Routes>
+              <Route element={<HomePage />} path="/" />
+              <Route element={<ServicesPage />} path="/services" />
+              <Route element={<ProjectsPage />} path="/projects" />
+              <Route element={<AboutPage />} path="/about" />
+            </Routes>
           <FooterComponent />
         </Router>
       </header>

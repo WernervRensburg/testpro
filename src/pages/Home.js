@@ -4,11 +4,13 @@ import Col from 'react-bootstrap/Col';
 
 import CardComponent from '../components/Card';
 
+import './static/styles/home.css'
+
 function HomePage() {
   return (
     <>
     <Container fluid>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center d-flex">
         <Col>
           Fluid container
         </Col>
@@ -16,23 +18,23 @@ function HomePage() {
     </Container>
 
     <Container fluid>
-      <Row xs={1} md={2} lg={3}>
-        <Col xs={12} md={6} lg={4}>
+      <Row className="row-bordered-purple d-flex justify-content-center">
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
-        <Col xs={12} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4} className="col-bordered-red d-flex justify-content-center">
           <CardComponent />
         </Col>
       </Row>
