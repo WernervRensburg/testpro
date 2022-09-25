@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Component imports
 import NavbarComponent from './components/Navbar';
+import FooterComponent from './components/Footer';
+import HeaderComponent from './components/Header';
 
 // Page imports
 import HomePage from './pages/Home';
@@ -19,13 +21,15 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Router>
-        <NavbarComponent />
+      <HeaderComponent />  
+      <NavbarComponent />
           <Routes>
             <Route element={<HomePage />} path="/" />
             <Route element={<ServicesPage />} path="/" />
             <Route element={<ProjectsPage />} path="/" />
             <Route element={<AboutPage />} path="/" />
           </Routes>
+          <FooterComponent />
         </Router>
       </header>
     </div>

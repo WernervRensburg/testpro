@@ -15,7 +15,7 @@ function HomePage() {
       </Row>
     </Container>
 
-    <Container>
+    <Container fluid>
       <Row xs={1} md={2} lg={3}>
         <Col xs={12} md={6} lg={4}>
           <CardComponent />
