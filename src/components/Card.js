@@ -12,7 +12,6 @@ function CardComponent() {
 
   const handleFlip = (e) => {
     e.preventDefault();
-    console.log('flipped');
     setFlipped(!flipped);
   }
 

@@ -16,7 +16,7 @@ function NavbarComponent() {
   return(
     <>
     {['sm'].map((expand) => (
-      <Navbar key={expand} expand={expand} className="mb-3" variant='dark'>
+      <Navbar key={expand} expand={expand} className="mb-3" variant='light'>
         <Container fluid>
           <Navbar.Brand as={Link} to="/" title="Home">Brand</Navbar.Brand>
           <Navbar.Toggle
