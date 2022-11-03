@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
 
+import './static/styles/navbar.css';
+
 function NavbarComponent() {
   
   const [show, setShow] = useState(false);
@@ -39,22 +41,27 @@ function NavbarComponent() {
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Item>
                   <Nav.Link as={Link} to="/" title="Home" onClick={handleClose}>
-                    Home
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link as={Link} to="/services" title="Services" onClick={handleClose}>
-                    Services
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link as={Link} to="/projects" title="Projects" onClick={handleClose}>
-                    Projects
+                    HOME
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link as={Link} to="/about" title="About" onClick={handleClose}>
-                    About Us
+                    ABOUT
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/services" title="Services" onClick={handleClose}>
+                    SERVICES
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/projects" title="Projects" onClick={handleClose}>
+                    PROJECTS
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link as={Link} to="/about" title="About" onClick={handleClose}>
+                    CONTACT US
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
