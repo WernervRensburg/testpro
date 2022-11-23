@@ -12,7 +12,7 @@ function HeaderComponent() {
                 <Row className="header-row">
                     <Col xs={12} md={6} className="contact-details d-flex justify-content-md-start justify-content-center">
                         <div className="inner">
-                            <b className="emph">CALL US&nbsp;:</b><span className="no-emph">&nbsp;044&nbsp;695&nbsp;0831&nbsp;|</span>
+                            <b className="emph">CALL US&nbsp;:</b><span className="no-emph">&nbsp;+27&nbsp;44&nbsp;695&nbsp;0831&nbsp;|</span>
                             <b className="emph">&nbsp;EMAIL&nbsp;:</b><span className="no-emph">&nbsp;info@testpro.co.za</span>
                         </div>
                     </Col>

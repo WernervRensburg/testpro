@@ -3,8 +3,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-import CardComponent from '../components/Card';
-
 import './static/styles/home.css'
 
 function HomePage() {
