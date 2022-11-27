@@ -5,13 +5,17 @@ import Image from 'react-bootstrap/Image';
 
 import './static/styles/home.css'
 
+import test_small from '../assets/test-small.png';
+import test_sm_2l from '../assets/test-sm-2l.png';
+import test_sm_365t35bv2 from '../assets/test-sm-365t35bv2.png';
+
 function HomePage() {
   return (
     <>
     <Container fluid>
       <Row className="justify-content-center d-flex bg-row">
         <div className="bg-div">
-          <Image className="landing-page" src="https://via.placeholder.com/2560x1080/808080"></Image>
+          <Image className="landing-page" src={test_sm_365t35bv2}></Image>
         </div>
       </Row>
     </Container>

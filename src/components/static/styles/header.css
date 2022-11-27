@@ -34,3 +34,8 @@
         padding-right: 3em;
     }
 } 
+
+a, a:hover {
+    text-decoration: none !important;
+    color: white;
+}

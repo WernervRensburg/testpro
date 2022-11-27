@@ -18,8 +18,8 @@ function HeaderComponent() {
                     </Col>
                     <Col xs={12} md={6} className="media-links d-flex justify-content-md-end justify-content-center">
                         <div className="inner">
-                            <i className="icon fa-brands fa-square-facebook fa-xl"></i>
-                            <i className="icon fa-brands fa-linkedin fa-xl"></i>
+                            <a href="https://www.facebook.com/testpro.laboratory.01/?ref=page_internal" target="blank" class="icon fa-brands fa-square-facebook fa-xl" aria-hidden="true"/>
+                            <a href="#" target="_blank" class="icon fa-brands fa-linkedin fa-xl" alt="LinkedIn page of Manager"/>
                         </div>
                     </Col>
                 </Row>
