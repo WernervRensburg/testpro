@@ -10,6 +10,7 @@ import { useState } from 'react';
 
 import './static/styles/navbar.css';
 import logo from '../assets/logo.png';
+import logo_small from '../assets/testpro-logo.png';
 
 function NavbarComponent() {
   
@@ -20,11 +21,12 @@ function NavbarComponent() {
   
   return(
     <>
-    {['sm'].map((expand) => (
+    {['xl'].map((expand) => (
       <Navbar key={expand} expand={expand} className="mb-3" variant='light'>
         <Container fluid>
           <Navbar.Brand as={Link} to="/" title="Home">
-            <Image className="navbar-logo fluid" src={logo}/>
+            <Image className="navbar-logo fluid d-none d-md-block" src={logo}/>
+            <Image className="navbar-logo-small d-md-none" src={logo_small}/>
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-${expand}`}

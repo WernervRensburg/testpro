@@ -2,12 +2,17 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     color: #a4a6a5 !important;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
     margin-top: 1rem !important;
+}
+
+.navbar-logo-small {
+    max-width: 100%;
+    height: auto;
 }
 
 .expand {

@@ -2,16 +2,16 @@
     padding: 0.5em;
 }
 
-.text-border {
-    border: 2px solid orange;
-}
-
 .seperator-md {
     padding: 0.4em;
 }
 
 .vr {
-    border: 1px solid green;
+    border: 3px solid green;
+}
+
+.justify-content-md-end, .justify-content-md-start {
+    border: 1px solid blue;
 }
 
 .service-display-card {
@@ -25,7 +25,8 @@
 }
 
 .service-text-block {
-    max-height: 75%;
+    max-height: fit-content;
+    max-width: 75%;
 }
 
 .landing-page-container {
