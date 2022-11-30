@@ -6,27 +6,24 @@
     padding: 0.4em;
 }
 
-.vr {
-    border: 3px solid green;
-}
-
-.justify-content-md-end, .justify-content-md-start {
-    border: 1px solid blue;
-}
-
-.service-display-card {
-    max-width: 30rem;
-    padding: auto;
-}
-
 .bg-div, .bg-row {
     padding-left: 0;
     padding-right: 0;
 }
 
+@media only screen and (min-width: 768px) {
+    .services-container {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
 .service-text-block {
     max-height: fit-content;
     max-width: 75%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: small;
 }
 
 .landing-page-container {
@@ -39,4 +36,18 @@
     padding: 0;
     margin: 0;
     display: block;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translate(0, 50%);
+    visibility: hidden;
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    display: flex; 
 }
