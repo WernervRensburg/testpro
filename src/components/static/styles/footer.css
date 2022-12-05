@@ -46,6 +46,10 @@
     }
 }
 
+.footer-container {
+    margin-bottom: 2rem;
+}
+
 .footer-container-inner {
     padding: 1rem;
 }
@@ -88,4 +92,38 @@ ul {
         margin-top: 1.6rem;
         margin-bottom: 1.6rem;
     }
+}
+
+.pty-ltd {
+    background-color: #1b1b1b;
+    height: 2.5rem;
+    visibility: hidden;
+}
+
+.address {
+    display: flex;
+    text-align: left;
+}
+
+.a1 {
+    margin-left: 1rem;
+}
+
+.a2 {
+    margin-left: 0.3rem;
+}
+
+.a3 {
+    display: flex;
+    justify-content: start;
+}
+
+.a4 {
+    padding: 0;
+    margin: 0;
+}
+
+.a5 {
+    justify-content: start;
+    padding: 0;
 }

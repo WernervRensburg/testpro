@@ -19,11 +19,11 @@
 }
 
 .header-container {
-    background-color: #074309 !important;
+    background-image: linear-gradient(to right, #074309, #347f3d);
 }
 
 .header-spacer {
-    background-color: #074309 !important;
+    background-image: linear-gradient(to right, #074309, #347f3d);
     height: 0.65em;
 }
 

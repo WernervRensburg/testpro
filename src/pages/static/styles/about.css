@@ -1,0 +1,13 @@
+.img-about {
+    border: solid 1px red;
+}
+
+.txt-about {
+    border: solid 1px green;
+}
+
+.big-seperator {
+    margin-top: 3rem;
+    height: 3rem;
+    background-image: linear-gradient(to right, #074309, #347f3d);
+}

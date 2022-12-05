@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
 import './static/styles/home.css'
 
@@ -30,7 +31,13 @@ function HomePage() {
         </Col>
         <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
           <div className="service-text-block text-border">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae congue turpis, et ornare magna. Sed fermentum vel mauris sed cursus. Duis eu mattis mi. Pellentesque nec semper dui. Suspendisse volutpat odio tincidunt ante tincidunt tincidunt. In id neque velit. Aliquam euismod ligula nibh. Fusce vel leo at neque venenatis.
+            <h2 className="service-name">Concrete</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
           </div>
         </Col>
 
@@ -43,7 +50,13 @@ function HomePage() {
         </Col>
         <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
           <div className="service-text-block text-border">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae congue turpis, et ornare magna. Sed fermentum vel mauris sed cursus. Duis eu mattis mi. Pellentesque nec semper dui. Suspendisse volutpat odio tincidunt ante tincidunt tincidunt. In id neque velit. Aliquam euismod ligula nibh. Fusce vel leo at neque venenatis.
+            <h2 className="service-name">Asphalt</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
           </div>
         </Col>
 
@@ -56,7 +69,13 @@ function HomePage() {
         </Col>
         <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
           <div className="service-text-block text-border">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae congue turpis, et ornare magna. Sed fermentum vel mauris sed cursus. Duis eu mattis mi. Pellentesque nec semper dui. Suspendisse volutpat odio tincidunt ante tincidunt tincidunt. In id neque velit. Aliquam euismod ligula nibh. Fusce vel leo at neque venenatis.
+            <h2 className="service-name">Soil & Gravel</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
           </div>
         </Col>
 
@@ -69,10 +88,56 @@ function HomePage() {
         </Col>
         <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
           <div className="service-text-block text-border">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae congue turpis, et ornare magna. Sed fermentum vel mauris sed cursus. Duis eu mattis mi. Pellentesque nec semper dui. Suspendisse volutpat odio tincidunt ante tincidunt tincidunt. In id neque velit. Aliquam euismod ligula nibh. Fusce vel leo at neque venenatis.
+            <h2 className="service-name">Aggregate</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
           </div>
         </Col>
 
+        <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-end justify-content-center">
+          <div className="d-flex justify-content-center">
+            <Fade bottom>
+              <Image className="service-img" src="https://via.placeholder.com/350x250/FFFF00"></Image>
+            </Fade>
+          </div>
+        </Col>
+        <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
+          <div className="service-text-block text-border">
+            <h2 className="service-name">Center Line</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
+          </div>
+        </Col>
+
+        <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-end justify-content-center">
+          <div className="d-flex justify-content-center">
+            <Fade bottom>
+              <Image className="service-img" src="https://via.placeholder.com/350x250/FFFF00"></Image>
+            </Fade>
+          </div>
+        </Col>
+        <Col xs={12} md={6} xxl={3} className="d-flex justify-content-md-start justify-content-center">
+          <div className="service-text-block text-border">
+            <h2 className="service-name">Placeholder</h2>
+              <Bounce left>
+                <hr/>
+              </Bounce>
+              <div className="service-description">
+              
+              </div>
+          </div>
+        </Col>
+
+      </Row>
+      <Row className="big-seperator">
       </Row>
     </Container>
   </>
