@@ -67,7 +67,7 @@ function NavbarComponent() {
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link className="expand" as={Link} to="/about" title="About" onClick={handleClose}>
+                  <Nav.Link className="expand" as={Link} to="/contact" title="Contact" onClick={handleClose}>
                     &nbsp;&nbsp;CONTACT US&nbsp;&nbsp;
                   </Nav.Link>
                 </Nav.Item>

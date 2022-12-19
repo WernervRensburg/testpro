@@ -14,6 +14,7 @@ import HomePage from './pages/Home';
 import ServicesPage from './pages/Services';
 import ProjectsPage from './pages/Projects';
 import AboutPage from './pages/About';
+import ContactPage from './pages/Contact';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route element={<ServicesPage />} path="/services" />
               <Route element={<ProjectsPage />} path="/projects" />
               <Route element={<AboutPage />} path="/about" />
+              <Route element={<ContactPage />} path="/contact" />
             </Routes>
           <FooterComponent />
         </Router>

@@ -69,12 +69,46 @@
     background-image: linear-gradient(to right, #074309, #347f3d);
 }
 
-.service-img, .text-border {
-    border: solid 1px transparent;
-}
-
 hr {
     border: 0;
     background: linear-gradient(to right, #074309, #347f3d);
     height: 5px;
+    max-width: 35%;
+    margin: 0.75rem auto 0.75rem auto;
+}
+
+.no-emph {
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    color: #a4a6a5;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+.l1 {
+    border: 1px solid red;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.l2 {
+    border: 1px solid blue;
+    margin-left: 10%;
+    display: flex;    
+}
+
+.l3 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.l4 {
+    border: 1px dashed orange;
+}
+
+.text-container {
+    border: 1px dashed salmon;
 }

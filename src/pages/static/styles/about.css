@@ -1,13 +1,23 @@
-.img-about {
-    border: solid 1px red;
-}
-
-.txt-about {
-    border: solid 1px green;
-}
-
 .big-seperator {
     margin-top: 3rem;
     height: 3rem;
     background-image: linear-gradient(to right, #074309, #347f3d);
+}
+
+.service-img-about {
+    margin: 0.75rem;
+}
+
+.about-header {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.ul-about {
+    border: 0;
+    background: linear-gradient(to right, #074309, #347f3d);
+    height: 5px;
+    max-width: 30%;
+    margin: 0.75rem auto 0.75rem auto;
 }

@@ -1,3 +1,4 @@
+/* Extra small devices */
 @media only screen and (max-width: 576px) {
     .footer-container {
         background-image: url("../../../assets/footer-xs.JPG");
@@ -6,6 +7,7 @@
     }
 }
 
+/*  Small devices */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .footer-container {
         background-image: url("../../../assets/footer-sm.JPG");
@@ -14,6 +16,7 @@
     }
 }
 
+/* Medium devices */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
     .footer-container {
         background-image: url("../../../assets/footer-md.JPG");
@@ -22,6 +25,7 @@
     }
 }
 
+/* Large devices */
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
     .footer-container {
         background-image: url("../../../assets/footer-lg.JPG");
@@ -29,7 +33,7 @@
         background-color: #2c2c2c;
     }
 }
-
+/* Extra-Large devices */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .footer-container {
         background-image: url("../../../assets/footer-xxl.png");
@@ -38,6 +42,7 @@
     }
 }
 
+/* 2XL device */
 @media only screen and (min-width: 1400px) {
     .footer-container {
         background-image: url("../../../assets/footer-xxl.png");
@@ -105,9 +110,18 @@ ul {
     text-align: left;
 }
 
-.a1 {
-    margin-left: 1rem;
+@media only screen and (max-width: 576px) {
+    .a1 {
+        margin-left: 0.1rem;
+    }
 }
+
+@media only screen and (min-width: 577px) {
+    .a1 {
+        margin-left: 1rem;
+    }
+}
+
 
 .a2 {
     margin-left: 0.3rem;
@@ -115,7 +129,6 @@ ul {
 
 .a3 {
     display: flex;
-    justify-content: start;
 }
 
 .a4 {
