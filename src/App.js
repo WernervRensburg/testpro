@@ -11,10 +11,14 @@ import HeaderComponent from './components/Header';
 
 // Page imports
 import HomePage from './pages/Home';
-import ServicesPage from './pages/Services';
 import ProjectsPage from './pages/Projects';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
+import ConcretePage from './pages/services/Concrete';
+import AsphaltPage from './pages/services/Asphalt';
+import SoilGravelPage from './pages/services/SoilGravel';
+import AggregatePage from './pages/services/Aggregate';
+import CenterlinePage from './pages/services/Centerline';
 
 function App() {
   return (
@@ -25,10 +29,14 @@ function App() {
           <NavbarComponent />
             <Routes>
               <Route element={<HomePage />} path="/" />
-              <Route element={<ServicesPage />} path="/services" />
               <Route element={<ProjectsPage />} path="/projects" />
               <Route element={<AboutPage />} path="/about" />
               <Route element={<ContactPage />} path="/contact" />
+              <Route element={<ConcretePage />} path="/services/concrete" />
+              <Route element={<AsphaltPage />} path="/services/asphalt" />
+              <Route element={<SoilGravelPage />} path="/services/soilgravel" />
+              <Route element={<AggregatePage />} path="/services/aggregate" />
+              <Route element={<CenterlinePage />} path="/services/centerline" />
             </Routes>
           <FooterComponent />
         </Router>

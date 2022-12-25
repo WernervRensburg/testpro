@@ -1,0 +1,33 @@
+.service-container {
+    border: solid 1px red;
+    padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .img-services-container {
+        border: solid 1px blue;
+    }    
+}
+
+@media only screen and (min-width: 577px) {
+    .img-services-container {
+        border: solid 1px blue;
+        max-width: 50%;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .dsc-services-container {
+        border: solid 1px slateblue;
+        max-width: 75%;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .dsc-services-container {
+        border: solid 1px slateblue;
+        max-width: 75%;
+        width: 75%;
+    }
+}
