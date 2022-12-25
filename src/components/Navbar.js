@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Image from 'react-bootstrap/Image';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Collapse from 'react-bootstrap/Collapse';
 
 import { Link } from 'react-router-dom';
 
@@ -19,6 +20,8 @@ function NavbarComponent() {
    
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const [hover, setHover] = useState(false);
   
   return(
     <>
@@ -62,6 +65,7 @@ function NavbarComponent() {
                 <NavDropdown
                   title="SERVICES"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
+                  className="dropdown-transition"
                 >
                   <NavDropdown.Item>
                     <Nav.Link className="expand" as={Link} to="/services/concrete" title="Projects" onClick={handleClose}>
