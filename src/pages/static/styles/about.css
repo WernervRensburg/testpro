@@ -5,7 +5,13 @@
 }
 
 .service-img-about {
-    margin: 0.75rem;
+    max-width: 99%;
+    margin-bottom: 0.5rem;
+}
+
+.img-container {
+    margin: 0;
+    padding: 0;
 }
 
 .about-header {
