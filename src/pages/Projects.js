@@ -10,7 +10,7 @@ function ProjectsPage() {
   return (
     <>
       <Container fluid>
-        <Row className="d-flex">
+        <Row className="d-flex justify-content-center">
           <Col xs={12} xl={6} className="d-flex justify-content-center txt-about">
             <div className="about-header-container">
               <h2 className="about-header">HARTLAND</h2>
@@ -30,7 +30,9 @@ function ProjectsPage() {
               </Fade>
             </div>
           </Col>
+        </Row>
 
+        <Row className="d-flex justify-content-center">
           {/* This Column's visibility is set to false at a certain screen size */}
           <Col xs={12} xl={6} className="d-flex d-none d-xl-block justify-content-center img-about">
             <div className="d-flex justify-content-xl-end justify-content-center">
@@ -58,7 +60,9 @@ function ProjectsPage() {
               </Fade>
             </div>
           </Col>
+        </Row>
 
+        <Row className="d-flex justify-content-center">
           <Col xs={12} xl={6} className="d-flex justify-content-center txt-about">
             <div className="about-header-container">
               <h2 className="about-header">OFFRAMP AT N2</h2>
@@ -78,8 +82,8 @@ function ProjectsPage() {
               </Fade>
             </div>
           </Col>
-
         </Row>
+        
         <Row className="big-seperator"></Row>
       </Container>
     </>

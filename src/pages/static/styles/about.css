@@ -3,10 +3,16 @@
     height: 3rem;
     background-image: linear-gradient(to right, #074309, #347f3d);
 }
+@media only screen and (max-width: 1199px) {
+    .service-img-about {
+        max-width: 100%;
+    }
+}
 
-.service-img-about {
-    max-width: 99%;
-    margin-bottom: 0.5rem;
+@media only screen and (min-width: 1200px) {
+    .service-img-about {
+        max-width: 100%;
+    }
 }
 
 .img-container {
@@ -26,4 +32,21 @@
     height: 5px;
     max-width: 30%;
     margin: 0.75rem auto 0.75rem auto;
+}
+
+.about-row {
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 1199px) {
+    .txt-about, .img-about {
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .txt-about, .img-about {
+        border: 1px solid green;
+        max-width: 750px;
+    }
 }
