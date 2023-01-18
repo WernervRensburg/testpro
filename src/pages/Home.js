@@ -33,7 +33,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">CONCRETE</h2>
             <Bounce left>
-              <hr/>
+              <hr className="hr-home"/>
             </Bounce>
             <div className="service-description border-1">
               <div className="text-container">
@@ -75,7 +75,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">ASPHALT</h2>
               <Bounce left>
-                <hr/>
+                <hr className="hr-home"/>
               </Bounce>
               <div className="service-description border-1">
                 <div className="text-container">
@@ -117,7 +117,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">SOIL & GRAVEL</h2>
               <Bounce left>
-                <hr/>
+                <hr className="hr-home"/>
               </Bounce>
               <div className="service-description border-1">
                 <div className="text-container">
@@ -159,7 +159,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">AGGREGATE</h2>
               <Bounce left>
-                <hr/>
+                <hr className="hr-home"/>
               </Bounce>
               <div className="service-description border-1">
                 <div className="text-container">
@@ -201,7 +201,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">CENTER LINE</h2>
               <Bounce left>
-                <hr/>
+                <hr className="hr-home"/>
               </Bounce>
               <div className="service-description border-1">
                 <div className="text-container">
@@ -243,7 +243,7 @@ function HomePage() {
           <div className="service-text-block text-border">
             <h2 className="service-name">PLACEHOLDER</h2>
               <Bounce left>
-                <hr/>
+                <hr className="hr-home"/>
               </Bounce>
               <div className="service-description border-1">
                 <div className="text-container">

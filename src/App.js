@@ -38,7 +38,7 @@ function App() {
               <Route element={<AggregatePage />} path="/services/aggregate" />
               <Route element={<CenterlinePage />} path="/services/centerline" />
             </Routes>
-          <FooterComponent />
+          <FooterComponent className="footer-component"/>
         </Router>
       </header>
     </div>

@@ -37,6 +37,7 @@ function AboutPage() {
             </div>
           </Col>
         </Row>
+        <hr className="section-seperator"></hr>
         <Row className="d-flex about-row justify-content-center">
           {/* This Column's visibility is set to false at a certain screen size */}
           <Col xs={12} xl={6} xxl={6} className="d-flex d-none d-xl-block justify-content-center img-about">
@@ -59,13 +60,14 @@ function AboutPage() {
             </div>
           </Col>
           <Col xs={12} xl={6} xxl={6} className="d-flex d-xl-none justify-content-center img-about">
-            <div className="d-flex justify-content-center  img-container">
+            <div className="d-flex justify-content-center img-container">
               <Fade left>
                 <Image className="service-img-about" src={team}></Image>
               </Fade>
             </div>
           </Col>
         </Row>
+        <hr className="section-seperator"></hr>
         <Row className="d-flex about-row justify-content-center">
           <Col xs={12} xl={6} xxl={6} className="d-flex justify-content-center txt-about">
             <div className="about-header-container">
@@ -88,7 +90,7 @@ function AboutPage() {
           </Col>
         </Row>
 
-        <Row className="big-seperator"></Row>
+        <Row className="big-seperator seperator"></Row>
       </Container>
     </>
   )

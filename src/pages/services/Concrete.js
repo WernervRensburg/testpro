@@ -7,7 +7,7 @@ function ConcretePage() {
     return (
         <>
             <Container fluid>
-                <Row className="d-flex justify-content-center">
+                <Row className="d-flex justify-content-center service-row">
                     <Col xs={12} lg={6} className="d-flex justify-content-md-end justify-content-center service-container">
                         <div className="img-services-container">
                             <Fade left>
