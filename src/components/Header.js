@@ -12,8 +12,8 @@ function HeaderComponent() {
                 <Row className="header-row">
                     <Col md={12} lg={6} className="contact-details d-flex justify-content-lg-start justify-content-center">
                         <div className="inner">
-                            <b className="emph-header">CALL US&nbsp;:</b><span className="no-emph-header">&nbsp;+27&nbsp;44&nbsp;695&nbsp;0831&nbsp;|</span>
-                            <b className="emph-header">&nbsp;EMAIL&nbsp;:</b><span className="no-emph-header">&nbsp;info@testpro.co.za</span>
+                            <a href="tel:+27446950831"><b className="emph-header">CALL US&nbsp;:</b><span className="no-emph-header">&nbsp;+27&nbsp;44&nbsp;695&nbsp;0831&nbsp;|</span></a>
+                            <a href="mailto:info@testpro.co.za"><b className="emph-header">&nbsp;EMAIL&nbsp;:</b><span className="no-emph-header">&nbsp;info@testpro.co.za</span></a>
                         </div>
                     </Col>
                     <Col md={12} lg={6} className="media-links d-flex justify-content-lg-end justify-content-center">
