@@ -89,8 +89,6 @@ function AboutPage() {
             </div>
           </Col>
         </Row>
-
-        <Row className="big-seperator seperator"></Row>
       </Container>
     </>
   )

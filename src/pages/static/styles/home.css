@@ -64,11 +64,6 @@
     display: flex; 
 }
 
-.big-seperator {
-    height: 3rem;
-    background-image: linear-gradient(to right, #074309, #347f3d);
-}
-
 .hr-home {
     border: 0;
     background: linear-gradient(to right, #074309, #347f3d);

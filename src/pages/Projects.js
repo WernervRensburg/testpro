@@ -83,8 +83,6 @@ function ProjectsPage() {
             </div>
           </Col>
         </Row>
-        
-        <Row className="big-seperator"></Row>
       </Container>
     </>
   )

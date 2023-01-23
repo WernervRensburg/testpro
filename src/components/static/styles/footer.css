@@ -51,14 +51,13 @@
     }
 }
 
-.footer-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 .footer-container-inner {
     padding: 1rem;
+}
+
+.big-seperator {
+    height: 3rem;
+    background-image: linear-gradient(to right, #074309, #347f3d);
 }
 
 .footer-emph {

@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import Row from 'react-bootstrap/Row';
+
 // Component imports
 import NavbarComponent from './components/Navbar';
 import FooterComponent from './components/Footer';
@@ -23,24 +25,28 @@ import CenterlinePage from './pages/services/Centerline';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Router>
-          <HeaderComponent />  
-          <NavbarComponent />
-            <Routes>
-              <Route element={<HomePage />} path="/" />
-              <Route element={<ProjectsPage />} path="/projects" />
-              <Route element={<AboutPage />} path="/about" />
-              <Route element={<ContactPage />} path="/contact" />
-              <Route element={<ConcretePage />} path="/services/concrete" />
-              <Route element={<AsphaltPage />} path="/services/asphalt" />
-              <Route element={<SoilGravelPage />} path="/services/soilgravel" />
-              <Route element={<AggregatePage />} path="/services/aggregate" />
-              <Route element={<CenterlinePage />} path="/services/centerline" />
-            </Routes>
-          <FooterComponent className="footer-component"/>
-        </Router>
-      </header>
+      <div className="page-container">
+        <div className="content-wrapper">
+          <header className="App-header">
+            <Router>
+              <HeaderComponent />  
+              <NavbarComponent />
+              <Routes>
+                <Route element={<HomePage />} path="/" />
+                <Route element={<ProjectsPage />} path="/projects" />
+                <Route element={<AboutPage />} path="/about" />
+                <Route element={<ContactPage />} path="/contact" />
+                <Route element={<ConcretePage />} path="/services/concrete" />
+                <Route element={<AsphaltPage />} path="/services/asphalt" />
+                <Route element={<SoilGravelPage />} path="/services/soilgravel" />
+                <Route element={<AggregatePage />} path="/services/aggregate" />
+                <Route element={<CenterlinePage />} path="/services/centerline" />
+              </Routes>
+            </Router>
+          </header>
+        </div>
+        <FooterComponent className="footer-component"/>
+      </div>
     </div>
   );
 }

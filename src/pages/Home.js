@@ -273,9 +273,6 @@ function HomePage() {
               </div>
           </div>
         </Col>
-
-      </Row>
-      <Row className="big-seperator">
       </Row>
     </Container>
   </>
