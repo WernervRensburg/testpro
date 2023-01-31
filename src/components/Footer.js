@@ -40,10 +40,13 @@ function FooterComponent() {
                                                     5 Voorbaai Crescent
                                                 </span><br/>
                                                 <span className="no-emph a1">
-                                                    Bayview
+                                                    Die Voor Bay
                                                 </span><br/>
                                                 <span className="no-emph a1">
-                                                    Hartenbos
+                                                    Mossel Bay
+                                                </span><br/>
+                                                <span className="no-emph a1">
+                                                    6506
                                                 </span>
                                             </a>
                                         </div>

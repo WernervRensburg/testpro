@@ -2,6 +2,97 @@
     border: 1px solid red;
 }
 
+.contact-wrapper, .form-wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list-container {
+    width: 100%;
+}
+
+.contact-ul {
+    padding-left: 0;
+    height: 100%;
+}
+
+.ct {
+    color: #1b1b1b;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.c-icon {
+    margin-left: 0.3em;
+    margin-right: 0.4em;
+}
+
+.contact-li {
+    display: flex;
+    text-align: left;
+    margin-top: 0.2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.contact-buttons {
+    text-align: left;
+    margin-top: 0.6em;
+    margin-left: 2em;
+}
+
+.btn {
+    flex: 1 1 auto;
+    padding: 7px 7px 7px 7px;
+    font-size: small;
+    text-align: center;
+    text-transform: uppercase;
+    width: 9em;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-color {
+    background-image: linear-gradient(to right, #074309 0%, #347f3d 51%, #074309 100%);
+}
+
 .container-map {
     border: 1px solid blue;
+}
+
+@media only screen and (max-width: 992px) {
+    .map-container, .image-container {
+        height: 25em;
+    }
+
+    .map-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .image-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .map-container, .image-container {
+        width: 25em;
+        height: 25em;
+    }
 }
