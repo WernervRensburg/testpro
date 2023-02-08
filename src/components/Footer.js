@@ -79,19 +79,19 @@ function FooterComponent() {
                                 <div className="links-list a5">
                                     <ul className="footer-ul a4">
                                         <li className="footer-list-item a3">
-                                            <a href="#">
+                                            <a href="/#">
                                                 <i className="fa-solid fa-angle-right align-angle a2 fa-fw"></i>
                                                 <span className="no-emph a1">Accreditation</span>
                                             </a>
                                         </li>
                                         <li className="footer-list-item a3">
-                                            <a href="#">
+                                            <a href="/#">
                                                 <i className="fa-solid fa-angle-right align-angle a2 fa-fw"></i>
                                                 <span className="no-emph a1">BEE</span>
                                             </a>
                                         </li>
                                         <li className="footer-list-item a3">
-                                            <a href="#">
+                                            <a href="/#">
                                                 <i className="fa-solid fa-angle-right align-angle a2 fa-fw"></i>
                                                 <span className="no-emph a1">Projects</span>
                                             </a>

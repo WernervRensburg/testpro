@@ -42,19 +42,19 @@ function HomePage() {
               <ul className="home-ul l1">
                 <li className="home-list-item l2">
                   {/* Link to concrete services */}
-                  <a href="#">
+                  <a href="/#">
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph l4">Slump tests</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="#">  
+                  <a href="/#">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph l4">Cube tests</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="#">  
+                  <a href="/#">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph l4">Core tests</span>
                   </a>
@@ -84,19 +84,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="#">
+                    <a href="/#">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Slump tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Cube tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Core tests</span>
                     </a>
@@ -126,19 +126,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="#">
+                    <a href="/#">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Slump tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Cube tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Core tests</span>
                     </a>
@@ -168,19 +168,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="#">
+                    <a href="/#">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Slump tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Cube tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Core tests</span>
                     </a>
@@ -210,19 +210,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="#">
+                    <a href="/#">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Slump tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Cube tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Core tests</span>
                     </a>
@@ -252,19 +252,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="#">
+                    <a href="/#">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Slump tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Cube tests</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="#">  
+                    <a href="/#">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph l4">Core tests</span>
                     </a>
