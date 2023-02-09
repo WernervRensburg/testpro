@@ -5,6 +5,8 @@
 
 .contact-list-container {
     width: 100%;
+    min-width: 360px;
+    margin: 2em 0 2em 0;
 }
 
 .contact-ul {
@@ -15,6 +17,21 @@
 .ct {
     color: #1b1b1b;
 }
+/*
+.sep-v {
+    border: 1px solid red;
+    max-height: 10em;
+    height: 5em;
+    margin: auto 4em auto;
+}
+
+.cu-image {
+    color: azure;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+*/
 
 .visibility {
     visibility: hidden;
@@ -26,11 +43,12 @@
 }
 
 .contact-li {
+    margin: 0.2em auto 0 auto;
     display: flex;
     text-align: left;
-    margin-top: 0.2em;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    max-width: 360px;
 }
 
 .d-header {
@@ -41,16 +59,12 @@
 .contact-buttons {
     text-align: left;
     margin-top: 0.6em;
-    margin-left: 2em;
-}
-
-.submit {
-    border: 1px solid red;
 }
 
 .btn {
     flex: 1 1 auto;
     padding: 7px 8px 7px 8px;
+    margin: 0 0.2em 0 0.3em;
     font-size: small;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -73,12 +87,8 @@
     background-image: linear-gradient(to right, #074309 0%, #347f3d 51%, #074309 100%);
 }
 
-.container-form {
-    border: 1px solid blue;
-}
-
 .contact-form {
-    width: 50em;
+    width: 45em;
     max-width: 100%;
 }
 
@@ -87,7 +97,7 @@
         background-image: url("../../../assets/Mossel-Bay-Peninsula-lg.jpg");
         background-size: cover;
         height: 23em;
-        margin-top: 5em;
+        margin: 5em 0 3em 0;
     }
 }
 
@@ -96,20 +106,11 @@
         background-image: url("../../../assets/Mossel-Bay-Peninsula-lg.jpg");
         background-size: cover;
         height: 18em;
-        margin-top: 5em;
+        margin: 5em 0 3em 0;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .contact-seperator {
-        background-image: url("../../../assets/Mossel-Bay-Peninsula-lg.jpg");
-        background-size: cover;
-        height: 18em;
-        margin-top: 5em;
-    }
-}
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1199px) {
     .map-container {
         height: 25em;
     }
@@ -126,7 +127,7 @@
     }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1200px) {
     .map-container, .image-container {
         width: 25em;
         height: 25em;

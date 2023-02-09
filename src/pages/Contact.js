@@ -34,7 +34,7 @@ function ContactPage() {
                         <div className="contact-list-container">
                             <ul className="contact-ul">
                                 
-                                <li className="d-header">
+                                <li className="contact-li d-header">
                                     <h2>mossel bay</h2>
                                 </li>
 
@@ -91,7 +91,7 @@ function ContactPage() {
                                     </a>
                                 </li>
 
-                                <li className="contact-buttons justify-content-start">
+                                <li className="contact-li contact-buttons justify-content-start">
                                     <a className="btn btn-color" href="/#">contact us</a>
                                     <a className="btn btn-color btn-spacing" href="/#" style={{ marginLeft: '1em'}}>experience</a>
                                 </li>
@@ -104,7 +104,12 @@ function ContactPage() {
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center">
-                    <Col xs={12} className="d-flex justify-content-center contact-seperator">
+                    <Col xs={12} className="d-flex justify-content-start contact-seperator">
+                        { /*
+                        <div className="sep-v">
+                            <span className="cu-image">contact us</span>
+                        </div>
+                        */ }
                     </Col>
                 </Row>
 
@@ -144,7 +149,7 @@ function ContactPage() {
                             >
                                 <Form.Control className="query" type="text" placeholder="name@example.com" />
                             </FloatingLabel>
-                            <div className="submit justify-content-end">
+                            <div>
                                 <a className="btn btn-color" href="/#">submit</a>
                             </div>
                         </Form>
