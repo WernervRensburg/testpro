@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import Button from 'react-bootstrap/Button';
 
 import React, { useState } from 'react';
 
@@ -11,16 +12,39 @@ import './static/styles/contact.css';
 
 function ContactPage() {
     
-    const [validated, setValidated] = useState(false);
-    
-    const handleSubmit = (event) => {
-        const form = event.currentTarget;
-        if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-        }
+    const [name, setName] = useState(""),
+        onInputName = ({target:{value}}) => setName(value);
+    const [email, setEmail] = useState(""),
+        onInputEmail = ({target:{value}}) => setEmail(value);
+    const [number, setNumber] = useState(""),
+        onInputNumber = ({target:{value}}) => setNumber(value);
+    const [subject, setSubject] = useState(""),
+        onInputSubject = ({target:{value}}) => setQuery(value);
+    const [query, setQuery] = useState(""),
+        onInputQuery = ({target:{value}}) => setQuery(value);
 
-        setValidated(true);
+    const handleSubmit = async (e) => {
+
+        e.preventDefault();
+
+        const response = await fetch("http://127.0.0.1:8000/contact/reachout/", {
+            method: "POST",
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                number: number,
+                subject: subject,
+                query: query
+            })
+        });
+
+        console.log(response.status)
+        console.log(response)
+
     };
 
     return (
@@ -100,7 +124,11 @@ function ContactPage() {
                         </div>
                     </Col>
                     <Col xs={12} lg={4} className="d-flex justify-content-lg-start justify-content-center container-contact">
-                    <iframe title="google-maps" className="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.5513189286663!2d22.101969829303574!3d-34.14108999878626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd66918c3c3321b%3A0x810429f2c46899f2!2s5%20Voorbaai%20Cres%2C%20Die%20Voor%20Bay%2C%20Mossel%20Bay%2C%206506!5e0!3m2!1sen!2sza!4v1675086589453!5m2!1sen!2sza"></iframe>
+                        <iframe
+                            title="google-maps"
+                            className="map-container"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.5513189286663!2d22.101969829303574!3d-34.14108999878626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dd66918c3c3321b%3A0x810429f2c46899f2!2s5%20Voorbaai%20Cres%2C%20Die%20Voor%20Bay%2C%20Mossel%20Bay%2C%206506!5e0!3m2!1sen!2sza!4v1675086589453!5m2!1sen!2sza"
+                        ></iframe>
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center">
@@ -116,41 +144,80 @@ function ContactPage() {
                 <Row className="d-flex justify-content-center form-wrapper">
                     <Col xs={12} className="d-flex justify-content-center container-form">
                         { /* Name */  }
-                        <Form noValidate validated={validated} onSubmit={handleSubmit} className="contact-form">
+                        <Form onSubmit={handleSubmit} className="contact-form">
                             <FloatingLabel
                                 required
                                 controlId="floatingInput"
                                 label="Name"
                                 className="mb-3"
                             >
-                                <Form.Control className="form-input" type="text" placeholder="Name"/>
+                                <Form.Control 
+                                    className="form-input"
+                                    type="text"
+                                    placeholder="Name"
+                                    onChange={onInputName}
+                                    value={name}
+                                />
                             </FloatingLabel>
-                            { /* Email */  }
                             <FloatingLabel
                                 controlId="floatingInput"
                                 label="Email"
                                 className="mb-3"
                             >
-                                <Form.Control className="form-input" type="email" placeholder="name@example.com" />
+                                <Form.Control
+                                    className="form-input"
+                                    type="email"
+                                    placeholder="name@example.com"
+                                    onChange={onInputEmail}
+                                    value={email}
+                                />
                             </FloatingLabel>
-                            { /* Contact Number */  }
+
                             <FloatingLabel
                                 controlId="floatingInput"
                                 label="Contact Number"
                                 className="mb-3"
                             >
-                                <Form.Control className="form-input" type="text" placeholder="name@example.com" />
+                                <Form.Control
+                                    className="form-input"
+                                    type="text"
+                                    placeholder="+27 12 345 6789"
+                                    onChange={onInputNumber}
+                                    value={number}
+                                />
                             </FloatingLabel>
-                            { /* Query */  }
+
+                            <FloatingLabel
+                                controlId="floatingInput"
+                                label="Subject"
+                                className="mb-3"
+                            >
+                                <Form.Control
+                                    className="form-input"
+                                    type="text"
+                                    placeholder=""
+                                    onChange={onInputSubject}
+                                    value={subject}
+                                />
+                            </FloatingLabel>
+
                             <FloatingLabel
                                 controlId="floatingTextarea"
                                 label="Query"
                                 className="mb-3"
                             >
-                                <Form.Control className="query" type="text" placeholder="name@example.com" />
+                                <Form.Control
+                                    as="textarea"
+                                    className="form-input"
+                                    style={{ height: '170px', resize: 'none' }}
+                                    type="text"
+                                    placeholder=""
+                                    onChange={onInputQuery}
+                                    value={query}
+                                />
                             </FloatingLabel>
                             <div>
-                                <a className="btn btn-color" href="/#">submit</a>
+                                <Button className="btn btn-color" type="submit">submit</Button>
                             </div>
                         </Form>
                     </Col>
