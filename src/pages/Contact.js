@@ -134,11 +134,9 @@ function ContactPage() {
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <Col xs={12} className="d-flex justify-content-start contact-seperator">
-                        { /*
                         <div className="sep-v">
-                            <span className="cu-image">contact us</span>
+                            <span className="cu-image">reach out to us</span>
                         </div>
-                        */ }
                     </Col>
                 </Row>
 
