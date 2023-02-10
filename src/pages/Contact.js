@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
 
 import './static/styles/contact.css';
+import jaco_profile from '../assets/bigbossgrayscale.png';
 
 function ContactPage() {
     
@@ -19,7 +20,7 @@ function ContactPage() {
     const [number, setNumber] = useState(""),
         onInputNumber = ({target:{value}}) => setNumber(value);
     const [subject, setSubject] = useState(""),
-        onInputSubject = ({target:{value}}) => setQuery(value);
+        onInputSubject = ({target:{value}}) => setSubject(value);
     const [query, setQuery] = useState(""),
         onInputQuery = ({target:{value}}) => setQuery(value);
 
@@ -51,10 +52,10 @@ function ContactPage() {
         <>
             <Container fluid>
                 <Row className="d-flex justify-content-center contact-wrapper">
-                    <Col xs={12} lg={4} className="d-flex justify-content-lg-end justify-content-center container-contact">
-                        <Image className="image-container" src="https://via.placeholder.com/480"></Image>
+                    <Col xs={12} xl={4} className="d-flex justify-content-xl-end justify-content-center container-contact">
+                        <Image className="image-container" src={jaco_profile}></Image>
                     </Col>
-                    <Col xs={12} lg="auto" className="d-flex justify-content-center container-contact">
+                    <Col xs={12} xl="auto" className="d-flex justify-content-center container-contact">
                         <div className="contact-list-container">
                             <ul className="contact-ul">
                                 
@@ -123,7 +124,7 @@ function ContactPage() {
                             </ul>
                         </div>
                     </Col>
-                    <Col xs={12} lg={4} className="d-flex justify-content-lg-start justify-content-center container-contact">
+                    <Col xs={12} xl={4} className="d-flex justify-content-xl-start justify-content-center container-contact">
                         <iframe
                             title="google-maps"
                             className="map-container"
@@ -217,7 +218,7 @@ function ContactPage() {
                                 />
                             </FloatingLabel>
                             <div>
-                                <Button className="btn btn-color" type="submit">submit</Button>
+                                <Button className="btn btn-color submit-button" type="submit">submit</Button>
                             </div>
                         </Form>
                     </Col>
