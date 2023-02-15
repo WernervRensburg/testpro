@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Amplify } from 'aws-amplify';
+import config from './aws-exports';
 
 // Component imports
 import NavbarComponent from './components/Navbar';
@@ -19,6 +21,8 @@ import AsphaltPage from './pages/services/Asphalt';
 import SoilGravelPage from './pages/services/SoilGravel';
 import AggregatePage from './pages/services/Aggregate';
 import CenterlinePage from './pages/services/Centerline';
+
+Amplify.configure(config);
 
 function App() {
   return (

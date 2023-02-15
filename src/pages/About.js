@@ -24,8 +24,14 @@ function AboutPage() {
                 <hr className="ul-about"/>
               </Bounce>
               <div className="tc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque mauris, molestie sed tempus dapibus, tincidunt a turpis. Mauris ut elit nunc. Nullam congue quam ac arcu sodales, et facilisis ipsum gravida. Nam eget eros sit amet lorem luctus ullamcorper. Nulla sagittis accumsan massa, nec tristique dui condimentum quis. Vestibulum id ligula eget dui accumsan viverra. Vivamus eget orci sed urna iaculis eleifend. Curabitur sagittis mauris sed mollis ultricies.
-                Morbi id maximus justo. Aenean tempus quam metus, vitae sagittis ligula maximus in. Vivamus venenatis urna orci, at euismod tellus accumsan ac. Nunc dignissim massa molestie ipsum efficitur, ut convallis mauris.
+                Established in May 2020, Testpro Laboratory (Pty) Ltd is a privately owned Civil
+                Engineering Materials Testing Laboratory. Our friendly and dedicated team of
+                professionals is committed to providing high-quality testing and analysis services to our
+                clients. Since we opened, we have built a good clientele with the Civil Engineering and
+                construction industry, Municipal and private sectors, and it grows every day. Although
+                our SANAS-Accredited lab is sited in Mossel Bay, Western Cape, we are not afraid to
+                travel to other towns and provinces. We use state-of-the-art equipment and follow strict
+                protocols to ensure that our results are accurate and reliable.
               </div>
             </div>
           </Col>
@@ -54,8 +60,12 @@ function AboutPage() {
                 <hr className="ul-about"/>
               </Bounce>
               <div className="tc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque mauris, molestie sed tempus dapibus, tincidunt a turpis. Mauris ut elit nunc. Nullam congue quam ac arcu sodales, et facilisis ipsum gravida. Nam eget eros sit amet lorem luctus ullamcorper. Nulla sagittis accumsan massa, nec tristique dui condimentum quis. Vestibulum id ligula eget dui accumsan viverra. Vivamus eget orci sed urna iaculis eleifend. Curabitur sagittis mauris sed mollis ultricies.
-                Morbi id maximus justo. Aenean tempus quam metus, vitae sagittis ligula maximus in. Vivamus venenatis urna orci, at euismod tellus accumsan ac. Nunc dignissim massa molestie ipsum efficitur, ut convallis mauris.
+                Our team includes our lead civil engineer, technicians, and support staff who work
+                together to provide exceptional testing and analysis services to our clients. Each
+                member of our team brings a unique set of skills and expertise to the table, and we are
+                constantly striving to learn and grow in our field. We are dedicated to providing the
+                highest level of service and quality to our clients, and we believe that our team is the
+                key to our success.
               </div>
             </div>
           </Col>
@@ -76,8 +86,8 @@ function AboutPage() {
                 <hr className="ul-about"/>
               </Bounce>
               <div className="tc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam neque mauris, molestie sed tempus dapibus, tincidunt a turpis. Mauris ut elit nunc. Nullam congue quam ac arcu sodales, et facilisis ipsum gravida. Nam eget eros sit amet lorem luctus ullamcorper. Nulla sagittis accumsan massa, nec tristique dui condimentum quis. Vestibulum id ligula eget dui accumsan viverra. Vivamus eget orci sed urna iaculis eleifend. Curabitur sagittis mauris sed mollis ultricies.
-                Morbi id maximus justo. Aenean tempus quam metus, vitae sagittis ligula maximus in. Vivamus venenatis urna orci, at euismod tellus accumsan ac. Nunc dignissim massa molestie ipsum efficitur, ut convallis mauris.
+                We strive to be the trusted partner of choice for our clients, to provide accurate and
+                efficient service delivery through competent and well trained staff.  
               </div>
             </div>
           </Col>

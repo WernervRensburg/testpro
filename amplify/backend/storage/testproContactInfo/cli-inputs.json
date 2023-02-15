@@ -1,0 +1,10 @@
+{
+  "resourceName": "testproContactInfo",
+  "tableName": "testproClientInfo",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
