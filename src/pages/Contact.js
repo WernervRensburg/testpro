@@ -28,7 +28,7 @@ function ContactPage() {
 
         e.preventDefault();
 
-        const response = await fetch("http://ec2-13-42-49-222.eu-west-2.compute.amazonaws.com:8000/contact/reachout/", {
+        const response = await fetch("https://ec2-18-168-77-105.eu-west-2.compute.amazonaws.com:8000/contact/reachout/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
