@@ -28,7 +28,7 @@ function ContactPage() {
 
         e.preventDefault();
 
-        const response = await fetch("http://ec2-18-168-77-105.eu-west-2.compute.amazonaws.com/contact/reachout/", {
+        const response = await fetch("http://127.0.0.1:8000/contact/reachout/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -134,8 +134,10 @@ function ContactPage() {
                 </Row>
                 <Row className="d-flex justify-content-center">
                     <Col xs={12} className="d-flex justify-content-start contact-seperator">
-                        <div className="sep-v">
-                            <span className="cu-image">reach out to us</span>
+                        <div className="cu-image-border"></div>
+                        <div className="cu-image-container justify-content-start">
+                            <span className="cu-image-text-small">dont hesitate.</span>
+                            <span className="cu-image-text-large">reach out to the experts.</span>
                         </div>
                     </Col>
                 </Row>
