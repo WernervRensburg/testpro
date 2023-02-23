@@ -1,6 +1,19 @@
 .service-img {
     padding: 0.5em;
     margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1199px) {
+    .service-img {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .service-img {
+        max-width: 350px;
+    }
 }
 
 .service-text-block {
@@ -36,6 +49,13 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: x-large;
+    color: #1f1f1f;
+}
+
+@media only screen and (max-width: 1199px) {
+    .service-description {
+        max-width: 360px;
+    }
 }
 
 .landing-page-container {
@@ -72,11 +92,27 @@
     margin: 0.75rem auto 0.75rem auto;
 }
 
-.no-emph {
+.no-emph-home, .text-container {
     font-family: 'Nunito', sans-serif;
-    font-size: small;
-    color: #a4a6a5;
+    color: #1f1f1f;
     font-weight: 600;
+}
+
+.no-emph-home {
+    position: relative;
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.home-ul {
+    margin-top: 0.5em;
+    padding-left: 0;
+}
+
+.home-list-item {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
 }
 
 ul {
@@ -84,26 +120,21 @@ ul {
 }
 
 .l1 {
-    border: 1px solid red;
     margin-left: 0;
     padding-left: 0;
 }
 
 .l2 {
-    border: 1px solid blue;
     margin-left: 10%;
     display: flex;    
 }
 
 .l3 {
+    position: absolute;
     margin-left: 0;
     padding-left: 0;
 }
 
-.l4 {
-    border: 1px dashed orange;
-}
-
-.text-container {
-    border: 1px dashed salmon;
+.border-2 {
+    margin: auto 0 auto 0
 }
