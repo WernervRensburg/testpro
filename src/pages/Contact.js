@@ -12,7 +12,7 @@ import './static/styles/contact.css';
 import jaco_profile from '../assets/bigbossgrayscale.png';
 
 function ContactPage() {
-    
+
     const [name, setName] = useState(""),
         onInputName = ({target:{value}}) => setName(value);
     const [email, setEmail] = useState(""),
@@ -28,7 +28,7 @@ function ContactPage() {
 
         e.preventDefault();
 
-        const response = await fetch("http://127.0.0.1:8000/contact/reachout/", {
+        await fetch("http://127.0.0.1:8000/contact/reachout/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -42,10 +42,7 @@ function ContactPage() {
                 query: query
             })
         });
-
-        console.log(response.status)
-        console.log(response)
-
+        window.location.reload(false);
     };
 
     return (
@@ -58,7 +55,7 @@ function ContactPage() {
                     <Col xs={12} xl="auto" className="d-flex justify-content-center container-contact">
                         <div className="contact-list-container">
                             <ul className="contact-ul">
-                                
+
                                 <li className="contact-li d-header">
                                     <h2>mossel bay</h2>
                                 </li>
@@ -91,14 +88,14 @@ function ContactPage() {
                                 <li className="contact-li contact-number">
                                     <a href="tel:+27446950831">
                                         <i className="fa-solid fa-phone c-icon fa-fw"></i>
-                                        <span className="ct">Tel:&nbsp;+27&nbsp;44&nbsp;695&nbsp;0831&nbsp;</span> 
+                                        <span className="ct">Tel:&nbsp;+27&nbsp;44&nbsp;695&nbsp;0831&nbsp;</span>
                                     </a>
                                 </li>
 
                                 <li className="contact-li contact-office">
                                     <a href="tel:+27829287562">
                                         <i className="fa-solid fa-mobile-screen-button c-icon fa-fw"></i>
-                                        <span className="ct">Cell:&nbsp;+27&nbsp;82&nbsp;928&nbsp;7562&nbsp;</span> 
+                                        <span className="ct">Cell:&nbsp;+27&nbsp;82&nbsp;928&nbsp;7562&nbsp;</span>
                                     </a>
                                 </li>
 
@@ -108,7 +105,7 @@ function ContactPage() {
                                         <span className="ct">&nbsp;jaco@testpro.co.za</span>
                                     </a>
                                 </li>
-                                
+
                                 <li className="contact-li office-email">
                                     <a href="mailto:info@testpro.co.za">
                                         <i className="fa-solid fa-envelope c-icon fa-fw visibility"></i>
@@ -152,7 +149,7 @@ function ContactPage() {
                                 label="Name"
                                 className="mb-3"
                             >
-                                <Form.Control 
+                                <Form.Control
                                     className="form-input"
                                     type="text"
                                     placeholder="Name"
