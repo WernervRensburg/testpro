@@ -9,11 +9,13 @@ import Bounce from 'react-reveal/Bounce';
 import './static/styles/home.css'
 
 import landing_page_lg from '../assets/landing-page-lg.png';
+import mobilelandingpage from '../assets/mobilelandingpage.jpg';
 import aggregate_img from '../assets/PSA.jpg';
 import soilandgravel_img from '../assets/SG.jpg';
 import asphalt_img from '../assets/asphalt.jpg';
 import concrete_img from '../assets/Concrete.jpg';
 import fieldtest_img from '../assets/FT.jpg';
+import sampling_img from '../assets/Sampling.jpg';
 
 function HomePage() {
 
@@ -22,7 +24,8 @@ function HomePage() {
     <Container fluid>
       <Row className="justify-content-center d-flex bg-row">
         <div className="bg-div">
-          <Image className="landing-page" src={landing_page_lg}></Image>
+          <Image className="landing-page d-flex d-none d-sm-block" src={landing_page_lg}></Image>
+          <Image className="mobile-landing-page d-flex d-sm-none" src={mobilelandingpage}></Image>
         </div>
       </Row>
     </Container>
@@ -349,7 +352,7 @@ function HomePage() {
         <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
-              <Image className="service-img" src={soilandgravel_img}></Image>
+              <Image className="service-img" src={sampling_img}></Image>
             </Fade>
           </div>
         </Col>
@@ -361,7 +364,7 @@ function HomePage() {
               </Bounce>
               <div className="d-flex d-xl-none justify-content-center">
                 <Fade bottom>
-                  <Image className="service-img" src={soilandgravel_img}></Image>
+                  <Image className="service-img" src={sampling_img}></Image>
                 </Fade>
               </div>
               <div className="service-description border-1">
