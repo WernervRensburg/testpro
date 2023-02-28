@@ -41,7 +41,7 @@ function NavbarComponent() {
             onHide={handleClose}
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbar-label-${expand}`}  onClick={handleClose}>
+              <Offcanvas.Title id={`offcanvasNavbar-label-${expand}`}  onClick={handleClose} className="navbar-header">
                 Testpro Laboratory
               </Offcanvas.Title>
             </Offcanvas.Header>
@@ -73,12 +73,12 @@ function NavbarComponent() {
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Nav.Link className="expand nav-link-text" as={Link} to="/services/asphalt" title="Projects" onClick={handleClose}>
-                      &nbsp;&nbsp;ASPHALT&nbsp;&nbsp;
+                      &nbsp;&nbsp;ASPHALT & BITUMEN&nbsp;&nbsp;
                     </Nav.Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/soilgravel" title="Projects" onClick={handleClose}>
-                      &nbsp;&nbsp;SOIL & GRAVEL&nbsp;&nbsp;
+                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/ssg" title="Projects" onClick={handleClose}>
+                      &nbsp;&nbsp;SOIL, SAND & GRAVEL&nbsp;&nbsp;
                     </Nav.Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
@@ -87,13 +87,18 @@ function NavbarComponent() {
                     </Nav.Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/centerline" title="Projects" onClick={handleClose}>
-                      &nbsp;&nbsp;CENTER LINE&nbsp;&nbsp;
+                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/fieldtesting" title="Projects" onClick={handleClose}>
+                      &nbsp;&nbsp;FIELD TESTING&nbsp;&nbsp;
                     </Nav.Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/placeholder" title="Projects" onClick={handleClose}>
-                      &nbsp;&nbsp;PLACEHOLDER&nbsp;&nbsp;
+                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/sampling" title="Projects" onClick={handleClose}>
+                      &nbsp;&nbsp;SAMPLING&nbsp;&nbsp;
+                    </Nav.Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Nav.Link className="expand nav-link-text" as={Link} to="/services/other" title="Projects" onClick={handleClose}>
+                      &nbsp;&nbsp;OTHER TESTS&nbsp;&nbsp;
                     </Nav.Link>
                   </NavDropdown.Item>
                 </NavDropdown>

@@ -16,6 +16,7 @@ import asphalt_img from '../assets/asphalt.jpg';
 import concrete_img from '../assets/Concrete.jpg';
 import fieldtest_img from '../assets/FT.jpg';
 import sampling_img from '../assets/Sampling.jpg';
+import other_img from '../assets/other.jpg';
 
 function HomePage() {
 
@@ -34,18 +35,18 @@ function HomePage() {
       <Row className="services-container">
         
         { /* Concrete */ }
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <Fade bottom>
             <Image className="service-img" src={concrete_img}></Image>
           </Fade>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">CONCRETE</h2>
             <Bounce left>
               <hr className="hr-home"/>
             </Bounce>
-            <div className="d-flex d-xl-none justify-content-center">
+            <div className="d-flex d-xxl-none justify-content-center">
               <Fade bottom>
                 <Image className="service-img" src={concrete_img}></Image>
               </Fade>
@@ -62,31 +63,31 @@ function HomePage() {
               <ul className="home-ul l1">
                 <li className="home-list-item l2">
                   {/* Link to concrete services */}
-                  <a href="/#">
+                  <a href="/services/concrete">
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph-home l4">Flow Test</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="/#">  
+                  <a href="/services/concrete">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph-home l4">Compressive Strength Tests</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="/#">  
+                  <a href="/services/concrete">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph-home l4">Slump tests</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="/#">  
+                  <a href="/services/concrete">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph-home l4">Making & Curing Specimens</span>
                   </a>
                 </li>
                 <li className="home-list-item l2">
-                  <a href="/#">  
+                  <a href="/services/concrete">  
                     <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                     <span className="no-emph-home l4">More...</span>
                   </a>
@@ -96,20 +97,22 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
               <Image className="service-img" src={asphalt_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">ASPHALT & BITUMEN</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
                   <Image className="service-img" src={asphalt_img}></Image>
                 </Fade>
@@ -123,31 +126,31 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/asphalt">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Marshall Stability, Flow and Quotient</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/asphalt">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Penetration of Bitumen</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/asphalt">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Penetration of Bitumen</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/asphalt">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Viscosity</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/asphalt">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>
@@ -157,20 +160,22 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
               <Image className="service-img" src={soilandgravel_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">SOIL, SAND & GRAVEL</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
                   <Image className="service-img" src={soilandgravel_img}></Image>
                 </Fade>
@@ -185,31 +190,31 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/ssg">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Hydrometer</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/ssg">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Flow Curve</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/ssg">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Maximum Dry Density & Moisture Content</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/ssg">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Wet Preparation & Particle Size Analysis</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/ssg">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>
@@ -219,20 +224,22 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
               <Image className="service-img" src={aggregate_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">AGGREGATE</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
                   <Image className="service-img" src={aggregate_img}></Image>
                 </Fade>
@@ -249,31 +256,31 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/aggregate">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Particle Size Analysis By Sieving</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/aggregate">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Sand Equivalent Value</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/aggregate">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Ehtylene Glycol Durability Index</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/aggregate">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Shrinkage & Expansion Of Cement Aggregate Mixes</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/aggregate">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>
@@ -283,20 +290,22 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
               <Image className="service-img" src={fieldtest_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">FIELD TESTING</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
                   <Image className="service-img" src={fieldtest_img}></Image>
                 </Fade>
@@ -313,33 +322,26 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
-                      <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
-                      <span className="no-emph-home l4">Marvil Test</span>
-                    </a>
-                  </li>
-                  <li className="home-list-item l2">
-                    {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/fieldtesting">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Borrow Pit Investigation</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/fieldtesting">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Centre Line Investigation</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/fieldtesting">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Geotechnical Investigation</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/fieldtesting">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>
@@ -349,20 +351,22 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
               <Image className="service-img" src={sampling_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">SAMPLING</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
                   <Image className="service-img" src={sampling_img}></Image>
                 </Fade>
@@ -380,19 +384,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/sampling">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Sampling Of Premixed Asphalt</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/sampling">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Sampling Of Freshly Mixed Concrete</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/sampling">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>
@@ -402,22 +406,24 @@ function HomePage() {
           </div>
         </Col>
 
-        <Col xs={12} xl={3} className="d-flex d-none d-xl-block justify-content-center border-2">
+        <hr className="col-seperator d-xxl-none"></hr>
+
+        <Col xs={12} xxl={3} className="d-flex d-none d-xxl-block justify-content-center border-2">
           <div className="d-flex justify-content-center">
             <Fade bottom>
-              <Image className="service-img" src="https://via.placeholder.com/350x250/FFFF00"></Image>
+              <Image className="service-img" src={other_img}></Image>
             </Fade>
           </div>
         </Col>
-        <Col xs={12} xl={3} className="d-flex justify-content-xl-start justify-content-center border-3">
+        <Col xs={12} xxl={3} className="d-flex justify-content-xxl-start justify-content-center border-3">
           <div className="service-text-block text-border">
             <h2 className="service-name">OTHER TESTS</h2>
               <Bounce left>
                 <hr className="hr-home"/>
               </Bounce>
-              <div className="d-flex d-xl-none justify-content-center">
+              <div className="d-flex d-xxl-none justify-content-center">
                 <Fade bottom>
-                  <Image className="service-img" src="https://via.placeholder.com/350x250/FFFF00"></Image>
+                  <Image className="service-img" src={other_img}></Image>
                 </Fade>
               </div>
               <div className="service-description border-1">
@@ -430,19 +436,19 @@ function HomePage() {
                 <ul className="home-ul l1">
                   <li className="home-list-item l2">
                     {/* Link to concrete services */}
-                    <a href="/#">
+                    <a href="/services/other">
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">Bedding, Compactibility Test</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/other">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">In Situ Percolation Test</span>
                     </a>
                   </li>
                   <li className="home-list-item l2">
-                    <a href="/#">  
+                    <a href="/services/other">  
                       <i className="l3 fa-solid fa-angle-right align-angle fa-fw"></i>
                       <span className="no-emph-home l4">More...</span>
                     </a>

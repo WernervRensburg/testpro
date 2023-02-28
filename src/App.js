@@ -16,9 +16,11 @@ import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import ConcretePage from './pages/services/Concrete';
 import AsphaltPage from './pages/services/Asphalt';
-import SoilGravelPage from './pages/services/SoilGravel';
+import SSGPage from './pages/services/SSG';
 import AggregatePage from './pages/services/Aggregate';
-import CenterlinePage from './pages/services/Centerline';
+import FieldTestingPage from './pages/services/FieldTesting';
+import SamplingPage from './pages/services/Sampling';
+import OtherServicesPage from './pages/services/OtherServices';
 
 function App() {
   return (
@@ -36,9 +38,11 @@ function App() {
                 <Route element={<ContactPage />} path="/contact" />
                 <Route element={<ConcretePage />} path="/services/concrete" />
                 <Route element={<AsphaltPage />} path="/services/asphalt" />
-                <Route element={<SoilGravelPage />} path="/services/soilgravel" />
+                <Route element={<SSGPage />} path="/services/ssg" />
                 <Route element={<AggregatePage />} path="/services/aggregate" />
-                <Route element={<CenterlinePage />} path="/services/centerline" />
+                <Route element={<FieldTestingPage />} path="/services/fieldtesting" />
+                <Route element={<SamplingPage />} path="/services/sampling" />
+                <Route element={<OtherServicesPage />} path="/services/other" />
               </Routes>
             </Router>
           </header>

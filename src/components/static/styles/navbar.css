@@ -10,6 +10,12 @@
     color: #a4a6a5 !important;
 }
 
+.navbar-header {
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    color: #347f3d;
+}
+
 .dropdown-text {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
