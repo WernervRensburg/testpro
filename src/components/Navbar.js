@@ -42,7 +42,7 @@ function NavbarComponent() {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbar-label-${expand}`}  onClick={handleClose} className="navbar-header">
-                Testpro Laboratory
+                TESTPRO LABORATORY
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>  
@@ -98,7 +98,7 @@ function NavbarComponent() {
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Nav.Link className="expand nav-link-text" as={Link} to="/services/other" title="Projects" onClick={handleClose}>
-                      &nbsp;&nbsp;OTHER TESTS&nbsp;&nbsp;
+                      &nbsp;&nbsp;OTHER SERVICES&nbsp;&nbsp;
                     </Nav.Link>
                   </NavDropdown.Item>
                 </NavDropdown>

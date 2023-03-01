@@ -87,7 +87,7 @@ ul {
     max-width: 60%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 993px) {
     .footer-accdetails {
         border-left: 2px solid #347f3d;
         border-right: 2px solid #347f3d;
