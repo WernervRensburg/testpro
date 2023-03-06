@@ -2,6 +2,8 @@ import { Col, Row, Container, Image } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
+import image from '../../assets/AsphaltDetailed.png';
+
 import '../static/styles/services.css';
 
 function AsphaltPage() {
@@ -27,11 +29,6 @@ function AsphaltPage() {
                                     related tests.
                                 </h5>
                                 <div className="dsc-text">
-                                    <p className="dsc-par">
-                                        Our facility offers an extensive range of asphalt and bitumen
-                                        related tests to ensure the quality and durability of your
-                                        projects.
-                                    </p>
                                     <p className="dsc-par">
                                         We understand that reliable materials are essential to the success
                                         of any construction project, which is why we use industry-standard
@@ -108,7 +105,7 @@ function AsphaltPage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>

@@ -2,6 +2,8 @@ import { Col, Row, Container, Image } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
+import image from '../../assets/SSGDetailed.png';
+
 import '../static/styles/services.css';
 
 function SoilGravelPage() {
@@ -27,10 +29,6 @@ function SoilGravelPage() {
                                 services, including testing and other related services
                                 </h5>
                                 <div className="dsc-text">
-                                    <p className="dsc-par">
-                                        Our facility offers an extensive range of concrete related tests
-                                        to ensure the quality and durability of your concrete structures.
-                                    </p>
                                     <p className="dsc-par">
                                     Our experienced team uses industry-standard testing methods and
                                     equipment to assess the properties of these materials, ensuring that
@@ -125,7 +123,7 @@ function SoilGravelPage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>

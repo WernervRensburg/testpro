@@ -2,6 +2,8 @@ import { Col, Row, Container, Image } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
+import image from '../../assets/SamplingDetailed.png';
+
 import '../static/styles/services.css';
 
 function SamplingPage() {
@@ -27,11 +29,6 @@ function SamplingPage() {
                                     other sampling related services.
                                 </h5>
                                 <div className="dsc-text">
-                                    <p className="dsc-par">
-                                        We offer a range of sampling services designed to help
-                                        you evaluate the quality and characteristics of your
-                                        construction materials.
-                                    </p>
                                     <p className="dsc-par">
                                         Our team uses industry-standard methods to collect
                                         representative samples of soil, concrete, asphalt,
@@ -93,7 +90,7 @@ function SamplingPage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>

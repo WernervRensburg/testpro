@@ -30,10 +30,6 @@ function ConcretePage() {
                                 </h5>
                                 <div className="dsc-text">
                                     <p className="dsc-par">
-                                        Our facility offers an extensive range of concrete related tests
-                                        to ensure the quality and durability of your concrete structures.
-                                    </p>
-                                    <p className="dsc-par">
                                         We understand the importance of reliable and precise results, and
                                         we strive to deliver the highest quality service to our clients.
                                     </p>

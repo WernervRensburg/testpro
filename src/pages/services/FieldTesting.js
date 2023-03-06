@@ -2,6 +2,8 @@ import { Col, Row, Container, Image } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 
+import image from '../../assets/FTDetailed.png';
+
 import '../static/styles/services.css';
 
 function CenterlinePage() {
@@ -26,11 +28,6 @@ function CenterlinePage() {
                                     We offer a variety of field testing services.
                                 </h5>
                                 <div className="dsc-text">
-                                    <p className="dsc-par">
-                                        Our team provides a comprehensive range of field testing
-                                        services to help you evaluate and monitor the performance
-                                        of your construction materials in real-world conditions.
-                                    </p>
                                     <p className="dsc-par">
                                         We use advanced testing techniques and equipment to gather
                                         accurate data on factors such as soil density, compaction,
@@ -86,7 +83,7 @@ function CenterlinePage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>

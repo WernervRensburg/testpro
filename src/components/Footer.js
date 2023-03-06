@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 
 import logo_transparent from '../assets/logo-transparent.png';
+
+import accreditation from '../media/TestproAccreditation.pdf';
+import profile from '../media/TestproCompanyProfile.pdf';
 
 import './static/styles/footer.css';
 
@@ -79,9 +82,15 @@ function FooterComponent() {
                                 <div className="links-list a5">
                                     <ul className="footer-ul a4">
                                         <li className="footer-list-item a3">
-                                            <a href="/#">
+                                            <a href={accreditation} target="_blank" rel="noreferrer">
                                                 <i className="fa-solid fa-angle-right align-angle a2 fa-fw"></i>
                                                 <span className="no-emph a1">Accreditation</span>
+                                            </a>
+                                        </li>
+                                        <li className="footer-list-item a3">
+                                            <a href={profile} target="_blank" rel="noreferrer">
+                                                <i className="fa-solid fa-angle-right align-angle a2 fa-fw"></i>
+                                                <span className="no-emph a1">Company Profile</span>
                                             </a>
                                         </li>
                                         { /* 

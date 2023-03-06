@@ -4,6 +4,8 @@ import Bounce from 'react-reveal/Bounce';
 
 import '../static/styles/services.css';
 
+import image from '../../assets/OtherDetailed.png';
+
 function OtherServicesPage() {
     return (
         <>
@@ -28,10 +30,6 @@ function OtherServicesPage() {
                                 </h5>
                                 <div className="dsc-text">
                                     <p className="dsc-par">
-                                        Our facility offers an extensive range of concrete related tests
-                                        to ensure the quality and durability of your concrete structures.
-                                    </p>
-                                    <p className="dsc-par">
                                         We understand the importance of reliable and precise results, and
                                         we strive to deliver the highest quality service to our clients.
                                     </p>
@@ -47,66 +45,38 @@ function OtherServicesPage() {
                                 </div>
                                 <div className="dsc-ul ul-left">
                                     <ul className="dsc-ul">
-                                    <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Uncertainty</span>
+                                        </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Repeatability, Duplicate Tests</span>
+                                        </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Computation of Soil Mortar %, CSR, GM & FM</span>
+                                        </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Checking & Verification of Test Sieves</span>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="dsc-ul ul-right">
                                     <ul className="dsc-ul">
-                                    <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
-                                <li className="dsc-list-item">
-                                    <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
-                                    <span className="no-emph-dsc"></span>
-                                </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Soil Conductivity Meter</span>
+                                        </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Insitu Percolation Test</span>
+                                        </li>
+                                        <li className="dsc-list-item">
+                                            <i className="dsc-i fa-solid fa-angle-right align-angle fa-fw"></i>
+                                            <span className="no-emph-dsc">Bedding, Compactibility Test</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +85,7 @@ function OtherServicesPage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>

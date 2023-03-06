@@ -5,6 +5,8 @@ import Bounce from 'react-reveal/Bounce';
 
 import '../static/styles/services.css';
 
+import image from '../../assets/AggregateDetailed.png';
+
 function AggregatePage() {
     return (
         <>
@@ -28,10 +30,6 @@ function AggregatePage() {
                                     services, including testing and related services
                                 </h5>
                                 <div className="dsc-text">
-                                    <p className="dsc-par">
-                                        We offer an extensive range of aggregate tests and other
-                                        related aggregate services.
-                                    </p>
                                     <p className="dsc-par">
                                         Our skilled technicians use industry-standard testing methods
                                         and equipment to assess the properties of aggregates, ensuring
@@ -123,7 +121,7 @@ function AggregatePage() {
                     <Col xs={12} md={6} className="d-flex justify-content-md-start justify-content-center service-col">
                         <div className="dsc-services-container img-services">
                             <Fade right>
-                                <Image className="dsc-image" src="placeholder.com/250"></Image>
+                                <Image className="dsc-image" src={image}></Image>
                             </Fade>
                         </div>
                     </Col>
