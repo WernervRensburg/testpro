@@ -5,19 +5,19 @@
 }
 
 .nav-link {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: #a4a6a5 !important;
 }
 
 .navbar-header {
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
     font-size: 24px;
     color: #347f3d;
 }
 
 .dropdown-text {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: #a4a6a5 !important;
     max-width: fit-content;
@@ -25,6 +25,10 @@
 
 .navbar {
     margin-top: 1rem !important;
+}
+
+.with-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-toggler {
@@ -65,17 +69,17 @@
 }
 
 .expand:after {
-    display:block;
-    content: '';
+    display: block;
+    content: "";
     border-bottom: solid 4px #347f3d;
-    transform: scaleX(0);  
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
-    transform-origin:50% 50%
+    transform-origin: 50% 50%;
 }
 
-.expand:hover:after { 
+.expand:hover:after {
     transform: scaleX(1);
-    transform-origin:50 50%;
+    transform-origin: 50 50%;
 }
 
 .dropdown-menu {
@@ -84,7 +88,7 @@
     padding: 0;
     max-height: 0;
     overflow: hidden;
-    transition: all .5s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .dropdown-menu.show {
@@ -101,16 +105,16 @@
 
 .expand-dropdown::after {
     display: block;
-    content: '';
+    content: "";
     border-bottom: solid 4px #347f3d;
-    transform: scaleX(0);  
+    transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     transform-origin: 50% 50%;
     margin-left: 20px;
     padding-right: 60px;
 }
 
-.expand-dropdown:hover::after { 
+.expand-dropdown:hover::after {
     transform: scaleX(1.7);
     transform-origin: 50% 50%;
     margin-left: 20px;

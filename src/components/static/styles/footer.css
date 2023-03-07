@@ -61,7 +61,7 @@
 }
 
 .footer-emph {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 800;
     font-size: small;
     color: #a4a6a5 !important;
@@ -73,13 +73,14 @@ ul {
 }
 
 .no-emph {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: small;
     color: #a4a6a5;
     font-weight: 600;
 }
 
-.fa-solid, .fa-brands {
+.fa-solid,
+.fa-brands {
     color: #347f3d;
 }
 
