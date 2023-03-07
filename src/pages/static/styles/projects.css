@@ -1,0 +1,48 @@
+.projects-row {
+    border: 1px solid black;
+}
+
+.projects-col {
+    border: 1px solid blue;
+}
+
+.project-name {
+    border: 1px solid red;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.projects-ul {
+    border: 0;
+    background: linear-gradient(to right, #074309, #347f3d);
+    height: 5px;
+    max-width: 65%;
+    margin: 0.25rem auto 0.75rem auto;
+}
+
+.project-image-container {
+    border: 1px solid green;
+}
+
+.project-image-container {
+    position: relative;
+}
+
+.project-image {
+    background-image: url("../../../assets/EroConsulting.png");
+    background-size: cover;
+    height: 180px;
+}
+
+.project-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}

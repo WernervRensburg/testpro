@@ -153,13 +153,13 @@ function FooterComponent() {
                     </div>
                     <div className='no-emph'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Fusce vitae congue turpis, et ornare magna.
-                            Sed fermentum vel mauris sed cursus. Duis eu mattis
-                            mi. Pellentesque nec semper dui. Suspendisse
-                            volutpat odio tincidunt ante tincidunt tincidunt. In
-                            id neque velit. Aliquam euismod ligula nibh. Fusce
-                            vel leo at neque venenatis.
+                            Testpro Laboratory is a privately
+                            owned Civil Engineering Materials
+                            Testing Laboratory established in
+                            2020 by Jaco van Rensburg. We pride
+                            ourselves on offering our customers
+                            responsive, competent, and excellent
+                            service.
                         </p>
                     </div>
                 </Col>
