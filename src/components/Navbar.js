@@ -7,11 +7,12 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { Link, useLocation } from "react-router-dom";
 
-import { useState } from "react";
+import React, { useState } from "react";
 
 import "./static/styles/navbar.css";
 import logo from "../assets/logo.png";
-import logo_small from "../assets/testpro-logo.png";
+import name from "../assets/name.png";
+import small from "../assets/testpro-logo.png";
 
 function NavbarComponent() {
     const [show, setShow] = useState(false);
@@ -52,14 +53,14 @@ function NavbarComponent() {
                     variant='light'
                 >
                     <Container fluid>
-                        <Navbar.Brand as={Link} to='/' title='Home'>
+                        <Navbar.Brand as={Link} to='/' title='Home' className="nav-brand">
                             <Image
                                 className='navbar-logo fluid d-none d-md-block'
                                 src={logo}
                             />
                             <Image
                                 className='navbar-logo-small d-md-none'
-                                src={logo_small}
+                                src={small}
                             />
                         </Navbar.Brand>
                         <Navbar.Toggle
@@ -79,7 +80,13 @@ function NavbarComponent() {
                                     onClick={handleClose}
                                     className='navbar-header'
                                 >
-                                    TESTPRO LABORATORY
+                                    <React.Fragment>
+                                        <img
+                                            className='canvas-name'
+                                            src={name}
+                                            alt="Testpro Laboratory Name"
+                                        />
+                                    </React.Fragment>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>

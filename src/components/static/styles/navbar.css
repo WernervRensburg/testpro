@@ -23,6 +23,10 @@
     max-width: fit-content;
 }
 
+.canvas-name {
+    max-width: 85%;
+}
+
 .navbar {
     margin-top: 1rem !important;
 }

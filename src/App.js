@@ -28,6 +28,7 @@ function App() {
       <div className="page-container">
         <div className="content-wrapper">
           <header className="App-header">
+          </header>
             <Router>
               <HeaderComponent />  
               <NavbarComponent />
@@ -45,7 +46,6 @@ function App() {
                 <Route element={<OtherServicesPage />} path="/services/other" />
               </Routes>
             </Router>
-          </header>
         </div>
         <FooterComponent className="footer-component"/>
       </div>

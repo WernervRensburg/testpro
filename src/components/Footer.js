@@ -20,7 +20,7 @@ function FooterComponent() {
                     className='footer-container-inner justify-content-md-start'
                 >
                     <div className='footer-emph'>CONTACT US</div>
-                    <Row>
+                    <Row className='list-row'>
                         <Col xs={6} className='inner-c a6'>
                             <div className='footer-list a5'>
                                 <ul className='footer-ul a4'>
@@ -88,8 +88,8 @@ function FooterComponent() {
                     className='footer-container-inner footer-accdetails'
                 >
                     <div className='accdetails-wrapper'>
-                        <div className='footer-emph'>LINKS</div>
-                        <Row>
+                        <div className='footer-emph links'>LINKS</div>
+                        <Row className='list-row'>
                             <Col xs={12} className='inner-c a6'>
                                 <div className='links-list a5'>
                                     <ul className='footer-ul a4'>
@@ -153,16 +153,19 @@ function FooterComponent() {
                     </div>
                     <div className='no-emph'>
                         <p>
-                            Testpro Laboratory is a privately
-                            owned Civil Engineering Materials
-                            Testing Laboratory established in
-                            2020 by Jaco van Rensburg. We pride
-                            ourselves on offering our customers
-                            responsive, competent, and excellent
-                            service.
+                            Testpro Laboratory is a privately owned Civil
+                            Engineering Materials Testing Laboratory established
+                            in 2020 by Jaco van Rensburg. We pride ourselves on
+                            offering our customers responsive, competent, and
+                            excellent service.
                         </p>
                     </div>
                 </Col>
+            </Row>
+            <Row className='pty-ltd-row'>
+                <div className="pty-ltd">
+                    2023 Testpro Laboratory Pty Ltd. All rights reserved.
+                </div>
             </Row>
         </Container>
     );
