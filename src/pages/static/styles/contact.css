@@ -103,6 +103,7 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     width: 10em !important;
+    max-width: 13em;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;

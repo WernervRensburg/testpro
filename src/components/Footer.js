@@ -124,7 +124,8 @@ function FooterComponent() {
                                                 <span className="no-emph a1">BEE</span>
                                             </a>
                                         </li>
-                                        */}
+                                        */ }
+                                        { /*
                                         <li className='footer-list-item a3'>
                                             <a href='/projects'>
                                                 <i className='fa-solid fa-angle-right align-angle a2 fa-fw'></i>
@@ -133,6 +134,7 @@ function FooterComponent() {
                                                 </span>
                                             </a>
                                         </li>
+                                        */ }
                                     </ul>
                                 </div>
                             </Col>

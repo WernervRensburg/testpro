@@ -129,7 +129,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/concrete'
-                                                title='Projects'
+                                                title='concrete-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;CONCRETE&nbsp;&nbsp;
@@ -140,7 +140,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/asphalt'
-                                                title='Projects'
+                                                title='asphalt-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;ASPHALT &
@@ -152,7 +152,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/ssg'
-                                                title='Projects'
+                                                title='ssg-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;SOIL, SAND &
@@ -164,7 +164,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/aggregate'
-                                                title='Projects'
+                                                title='aggregate-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;AGGREGATE&nbsp;&nbsp;
@@ -175,7 +175,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/fieldtesting'
-                                                title='Projects'
+                                                title='ft-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;FIELD
@@ -187,7 +187,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/sampling'
-                                                title='Projects'
+                                                title='sampling-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;SAMPLING&nbsp;&nbsp;
@@ -198,7 +198,7 @@ function NavbarComponent() {
                                                 className='expand nav-link-text'
                                                 as={Link}
                                                 to='/services/other'
-                                                title='Projects'
+                                                title='other-service'
                                                 onClick={handleClose}
                                             >
                                                 &nbsp;&nbsp;OTHER
@@ -206,7 +206,7 @@ function NavbarComponent() {
                                             </Nav.Link>
                                         </NavDropdown.Item>
                                     </NavDropdown>
-
+                                    { /*
                                     <Nav.Item>
                                         <Nav.Link
                                             className='expand nav-link-text'
@@ -218,6 +218,7 @@ function NavbarComponent() {
                                             &nbsp;&nbsp;PROJECTS&nbsp;&nbsp;
                                         </Nav.Link>
                                     </Nav.Item>
+                                    */ }
                                     <Nav.Item>
                                         <Nav.Link
                                             className='expand nav-link-text'

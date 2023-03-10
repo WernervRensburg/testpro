@@ -100,7 +100,7 @@ function ConcretePage() {
                 </Row>                
            </Container>
         </>
-    )
+    );
 }
 
 export default ConcretePage;

@@ -114,8 +114,7 @@ function ContactPage() {
                                 </li>
 
                                 <li className="contact-li contact-buttons justify-content-start">
-                                    <a className="btn btn-color" href="/#">contact us</a>
-                                    <a className="btn btn-color btn-spacing" href="/#" style={{ marginLeft: '1em'}}>experience</a>
+                                    <a className="btn btn-color" href="#contact-id">contact us</a>
                                 </li>
 
                             </ul>
@@ -139,7 +138,7 @@ function ContactPage() {
                     </Col>
                 </Row>
 
-                <Row className="d-flex justify-content-center form-wrapper">
+                <Row className="d-flex justify-content-center form-wrapper" id="contact-id">
                     <Col xs={12} className="d-flex justify-content-center container-form">
                         { /* Name */  }
                         <Form onSubmit={handleSubmit} className="contact-form">

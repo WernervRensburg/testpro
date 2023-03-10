@@ -39,16 +39,14 @@ function HeaderComponent() {
                         <div className='inner'>
                             <a
                                 href='https://www.facebook.com/testpro.laboratory.01/?ref=page_internal'
-                                target='blank'
-                                className='icon fa-brands fa-square-facebook fa-xl'
-                                aria-hidden='true'
-                            ></a>
-                            <a
-                                href='/#'
                                 target='_blank'
-                                className='icon fa-brands fa-linkedin fa-xl'
-                                alt='LinkedIn page of Manager'
-                            ></a>
+                                rel='noreferrer'
+                            >
+                                <span
+                                    className='icon fa-brands fa-square-facebook fa-xl'
+                                    aria-hidden='true'
+                                ></span>
+                            </a>
                         </div>
                     </Col>
                 </Row>

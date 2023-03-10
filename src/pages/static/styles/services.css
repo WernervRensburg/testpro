@@ -61,23 +61,35 @@
     font-family: "Nunito", sans-serif;
     font-size: 16px;
 }
-
-.ul-left {
-    float: left;
-    width: 50%;
+@media only screen and (min-width: 577px) {
+    .ul-left {
+        float: left;
+        width: 50%;
+    }
+    
+    .dsc-ul {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 8px;
+    }
 }
 
-.dsc-ul {
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 8px;
+@media only screen and (min-width: 577px) {
+    .dsc-list-item {
+        margin-left: 10%;
+        margin-bottom: 8px;
+        display: flex;
+        text-align: left;
+    }
 }
 
-.dsc-list-item {
-    margin-left: 10%;
-    margin-bottom: 8px;
-    display: flex;
-    text-align: left;
+@media only screen and (max-width: 576px) {
+    .dsc-list-item {
+        margin-left: 0.75em;
+        margin-bottom: 8px;
+        display: flex;
+        text-align: left;
+    }
 }
 
 .dsc-i {

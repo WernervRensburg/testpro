@@ -1,17 +1,44 @@
-.projects-row {
-    border: 1px solid black;
+.projects-container {
+    max-width: 1000px;
 }
 
-.projects-col {
-    border: 1px solid blue;
+.desc-projects {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 .project-name {
-    border: 1px solid red;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 24px;
+    color: #1c1c1c;
+}
+
+.projects-intro-col {
+    justify-content: center;
+    margin: 2em auto 0 auto;
+}
+
+.hr-projects-small {
+    max-width: 75%;
+    margin: 1em auto 2em auto;
+}
+
+.hr-projects {
+    border: 0;
+    background: linear-gradient(to right, #074309, #347f3d);
+    height: 5px;
+    max-width: 15%;
+    margin: 0.5em auto 0.75em auto;
+}
+
+.projects-header {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 .projects-ul {
@@ -20,10 +47,6 @@
     height: 5px;
     max-width: 65%;
     margin: 0.25rem auto 0.75rem auto;
-}
-
-.project-image-container {
-    border: 1px solid green;
 }
 
 .project-image-container {

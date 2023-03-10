@@ -11,8 +11,9 @@
 }
 
 .navbar-header {
-    font-family: "Anton", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 24px;
+    font-weight: 600;
     color: #347f3d;
 }
 
