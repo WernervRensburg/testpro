@@ -14,7 +14,7 @@ function ProjectsPage() {
 
     return (
         <Container fluid>
-            <Row className="projects-row justify-content-lg-center">
+            <Row className="projects-row justify-content-center">
                 <Col xs="auto" className="projects-col">
                     <div className="project-name">
                         Ero Consulting Engineers: Upgrading of R62 between Louterwater & Joubertinia

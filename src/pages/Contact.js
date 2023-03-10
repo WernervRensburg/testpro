@@ -28,7 +28,7 @@ function ContactPage() {
 
         e.preventDefault();
 
-        await fetch("Werner.pythonanywhere.com/contact/reachout/", {
+        await fetch("https://Werner.pythonanywhere.com/contact/reachout/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
