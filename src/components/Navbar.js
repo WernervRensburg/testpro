@@ -206,7 +206,7 @@ function NavbarComponent() {
                                             </Nav.Link>
                                         </NavDropdown.Item>
                                     </NavDropdown>
-                                    { /*
+                                    { /* */ }
                                     <Nav.Item>
                                         <Nav.Link
                                             className='expand nav-link-text'
@@ -218,7 +218,7 @@ function NavbarComponent() {
                                             &nbsp;&nbsp;PROJECTS&nbsp;&nbsp;
                                         </Nav.Link>
                                     </Nav.Item>
-                                    */ }
+                                    { /* */ }
                                     <Nav.Item>
                                         <Nav.Link
                                             className='expand nav-link-text'

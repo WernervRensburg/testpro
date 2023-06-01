@@ -53,15 +53,15 @@
 .cu-image-text-small {
     color: azure;
     text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 300;
 }
 
 .cu-image-text-large {
     color: azure;
     text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
     font-size: 32px;
     margin-top: -0.25em;
     display: block;
