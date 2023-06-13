@@ -1,0 +1,19 @@
+.hr-projects-widget {
+    border: 0;
+    background: linear-gradient(to right, #074309, #347f3d);
+    height: 5px;
+    max-width: 35%;
+    margin: 0.5em auto 0.75em auto;
+}
+
+.description-col, .main-image-col {
+    max-width: 450px;
+}
+
+.main-container-row {
+    padding: 25px 0 25px 0;
+}
+
+.widget-image {
+    max-width: 420px;
+}
