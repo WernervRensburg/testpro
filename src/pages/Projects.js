@@ -11,6 +11,7 @@ import "./static/styles/projects.css";
 import hartland from '../assets/HartlandEstate.png';
 import n2circle from '../assets/n2CircleHartland.jpg';
 import fynbosheights from '../assets/FynbosHeights.jpg';
+import renosterbos from '../assets/renosterbos.jpg';
 
 function ProjectsPage() {
 
@@ -21,7 +22,7 @@ function ProjectsPage() {
             content: 'This infrastructure project was initiated to provide access to Hartenbos off the N2 highway. It will also provide access to the new filling station under construction as well as the Hartland Lifestyle Estate. The project took 3 months to complete and was finished in December 2021.\nCivil Contractor : urwhebo e-Transand\nTestpro Laboratory was responsible for all quality control testing for the Civil Contractor i.e road layerworks compaction, asphalt control testing & concrete strength testing.',
         },
         {
-            mainImage: '',
+            mainImage: renosterbos,
             projectTitle: 'Renosterbos Estate',
             content: 'Renosterbos Estate is a private development situated on the north facing slopes west of the beautiful town of Hartenbos. It includes a selection of private residences, a retirement village component as well as assisted living with frail care facilities.\nConsulting Civil Engineer : Niel Lyners & Associates\nMain Civil Contractor : urwhebo e-Transand\nBuilding Contractor : Schoeman Trio Builders\nTestpro Laboratory was responsible for all quality control testing for the Civil Contractor as well as the Building Contractor i.e road layerworks compaction, asphalt control testing, concrete strength testing & floor compaction testing.',
         },

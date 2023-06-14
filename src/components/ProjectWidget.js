@@ -21,7 +21,7 @@ function ProjectWidget(props) {
                     </Fade>
                 </Col>
                 <Col lg={6} className='description-col col-outer'>
-                    <h3>{props.projectTitle}</h3>
+                    <h3 className='widget-title'>{props.projectTitle}</h3>
                     <Bounce right>
                         <hr className='hr-projects-widget' />
                     </Bounce>

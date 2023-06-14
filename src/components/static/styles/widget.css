@@ -17,3 +17,12 @@
 .widget-image {
     max-width: 420px;
 }
+
+.widget-title {
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
