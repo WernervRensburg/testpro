@@ -115,6 +115,7 @@ function ContactPage() {
 
                                 <li className="contact-li contact-buttons justify-content-start">
                                     <a className="btn btn-color" href="#contact-id">contact us</a>
+                                    <a className="btn btn-color" href="https://www.linkedin.com/in/jaco-van-rensburg-10384a27b/" target='_blank' rel='noreferrer'>experience</a>
                                 </li>
 
                             </ul>
