@@ -47,6 +47,16 @@ function HeaderComponent() {
                                     aria-hidden='true'
                                 ></span>
                             </a>
+                            <a 
+                                href='https://www.linkedin.com/company/testpro-laboratory-pty/'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <span
+                                    className="icon fa-brands fa-linkedin fa-xl"
+                                    aria-hidden='true'
+                                ></span>
+                            </a>
                         </div>
                     </Col>
                 </Row>
